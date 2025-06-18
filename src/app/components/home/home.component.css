@@ -1,0 +1,24 @@
+.home {
+  background-color: #1abc9c;
+  text-align: center;
+}
+
+.home .content {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+
+.home img {
+  width:250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 48px;
+}
+
+.home p {
+  font-size: 18px;
+}

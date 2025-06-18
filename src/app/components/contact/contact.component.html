@@ -1,0 +1,28 @@
+<article class="conatct">
+  <div class="container">
+    <div class="row">
+      <h1>conatct section</h1>
+      
+      <form>
+        <div class="mb-3">
+          <label *ngIf="userName.length > 0" class="form-label">user Name</label>
+          <input [(ngModel)]="userName" name="userName" type="text" class="form-control" placeholder="userName">
+        </div>
+        <div class="mb-3">
+          <label *ngIf="age.length > 0" class="form-label">user Age</label>
+          <input [(ngModel)]="age" type="text" name="age" class="form-control" placeholder="user Age">
+        </div>
+        <div class="mb-3">
+          <label *ngIf="email.length > 0" class="form-label">user Email</label>
+          <input [(ngModel)]="email" type="email" name="email" class="form-control" placeholder="user Email">
+        </div>
+        <div class="mb-3">
+          <label *ngIf="password.length > 0" class="form-label">user Password</label>
+          <input [(ngModel)]="password" type="password" name="password" class="form-control" placeholder="user Password">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</article>

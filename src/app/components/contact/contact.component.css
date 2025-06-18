@@ -1,0 +1,19 @@
+.conatct {
+  height: 85vh;
+}
+
+.conatct h1 {
+  margin-top: 24px;
+}
+
+form div {
+  margin-top: 40px;
+}
+
+label.show-label {
+  transition: all 0.5s;
+}
+
+input {
+  padding: 12px 15px;
+}

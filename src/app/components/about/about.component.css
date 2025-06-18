@@ -1,0 +1,17 @@
+.about {
+  background-color: #1abc9c;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#FFF;
+}
+
+.about .content h1 {
+  margin-bottom: 40px;
+}
+
+.about .content p {
+  font-size: 18px;
+}
