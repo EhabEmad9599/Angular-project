@@ -2,9 +2,10 @@
   margin:20px 0 40px;
 }
 
-.card {
+.portfolio .card {
   position: relative;
   margin: 16px;
+  border: none;
 }
 
 .overlay {
@@ -18,6 +19,7 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #1abc9ce6;
+  border-radius: 16px;
 }
 
 .text {
@@ -30,6 +32,10 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text .fa-solid {
+  font-size: 2rem;
 }
 
 .card:hover .overlay {
